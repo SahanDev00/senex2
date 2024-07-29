@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from "./Components/Navbar";
 import About from './Pages/About';
 import Contact from './Pages/Contact';
@@ -27,7 +27,6 @@ import { PrimeReactProvider } from 'primereact/api';
 
 
 function BackgroundImages() {
-  const location = useLocation();
 
 
   return (
