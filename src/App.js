@@ -10,7 +10,7 @@ import Cards from './Components/Cards';
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import Product from './Pages/Product';
-import bgPic from "./Assets/Images/background1.webp"
+//import bgPic from "./Assets/Images/background1.webp"
 //import bgPic2 from "./Assets/Images/Background2.jpg"
 //import bgPic3 from "./Assets/Images/farcry.jpg"
 import Login from './Pages/Login';
@@ -29,9 +29,6 @@ import { PrimeReactProvider } from 'primereact/api';
 function BackgroundImages() {
   const location = useLocation();
 
-  const isActive = (path) => {
-    return location.pathname === path;
-  };
 
   return (
     <div className='absolute opacity-25'>
