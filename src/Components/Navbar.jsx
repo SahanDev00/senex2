@@ -100,7 +100,7 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    <div onClick={handleNav} className='block md:hidden z-10 cursor-pointer text-white'>
+                    <div onClick={handleNav} className='block md:hidden z-10 cursor-pointer'>
                         {nav ? <IoClose size={30} className=''/> : <IoMenu size={30} className=''/>}
                     </div>
 
