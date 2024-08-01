@@ -79,7 +79,7 @@ const Sidebar = () => {
           </ul>
         </div>
       </div>
-      <div>
+      <div >
         {/* Render FilterSection component if a subcategory is selected */}
         {selectedSubCategory && (
           <FilterSection subCategory={selectedSubCategory} onClose={handleCloseFilterSection} />

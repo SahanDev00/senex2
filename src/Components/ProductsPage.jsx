@@ -72,7 +72,7 @@ const ProductsPage = () => {
         <div>
           <p className=" md:mb-2">{products.length} products found</p>
           <div className='w-[200px] mb-2 h-[50px] flex md:hidden items-center'>
-            <button className='px-4 py-1 text-white border' onClick={toggleSidebar}>Filters</button>
+            <button className='px-4 py-1 border' onClick={toggleSidebar}>Filters</button>
           </div>
           <div className="grid grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6">
             {currentProducts.map((product) => (
