@@ -71,7 +71,7 @@ const SearchResults = () => {
           <div className="grid grid-cols-2 2xl:grid-cols-4 xl:grid-cols-3 gap-6">
             {currentProducts.map((product, index) => (
               <div key={index} className="border hover:scale-105 duration-300 m-1 p-4 rounded hover:shadow-lg shadow cursor-pointer" onClick={() => setSelectedProduct(product)}>
-                <img src={product.image} alt={product.name} className="md:w-full md:h-48 mb-4" />
+                <img src={product.image} alt={product.name} className="w-full mb-4" />
                 <h2 className=" md:text-xl text-center font-semibold">{product.name}</h2>
                 <p className=" text-center">${Number(product.price).toFixed(2)}</p> {/* Ensure price is formatted */}
                 <button
