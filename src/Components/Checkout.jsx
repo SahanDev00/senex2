@@ -24,11 +24,11 @@ const Checkout = () => {
   return (
     <div className='w-full mx-auto'>
       <div className=' w-full mx-auto relative mb-7 md:mb-20'>
-        <h1 className='mt-10 md:mt-20 md:mb-5 text-2xl md:text-4xl text-white font-bold text-center font-poppins'>Place Order</h1>
+        <h1 className='mt-10 md:mt-20 md:mb-5 text-2xl md:text-4xl text-gray-800 font-bold text-center font-poppins'>Place Order</h1>
         <div className='grid gap-4 grid-cols-1 md:grid-cols-2 mx-auto w-[80%]'>
           <div className=' mx-auto w-full'>
             <form className=' w-full bg-black/50 mt-5 md:mt-10 border-white border-4 rounded-xl p-5'>
-              <h1 className='text-2xl md:text-3xl font-bold text-center my-2 text-white font-poppins'>Billing Details</h1>
+              <h1 className='text-2xl md:text-3xl font-bold text-center my-2 font-poppins'>Billing Details</h1>
               <div className='flex gap-6 my-6'>
                 <input className='w-full mx-auto h-12 rounded-lg pl-3 py-1 border-red-500 border-2 mb-2 mt-1' type="text" placeholder='First Name' />
                 <input className='w-full mx-auto rounded-lg pl-3 py-1 border-red-500 border-2 mb-2 mt-1' type="text" placeholder='Last Name' />
@@ -47,7 +47,7 @@ const Checkout = () => {
           {/* Right Side */}
           <div className='w-full mx-auto'>
             <div className='w-full flex items-center h-full justify-center md:mt-0 mt-5'>
-              <div className='w-full md:w-[300px ] xl:w-[400px] mx-auto bg-black/50 rounded-xl border-4 p-6 text-white'>
+              <div className='w-full md:w-[300px ] xl:w-[400px] mx-auto bg-black/50 rounded-xl border-4 p-6'>
                 <h1 className='font-semibold text-2xl mb-1 font-poppins'>Your Order</h1>
                 <hr className='border border-gray-600 mb-5' />
                 <div className='flex justify-between border-b border-red-500'>
