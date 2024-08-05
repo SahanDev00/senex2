@@ -131,7 +131,7 @@ const Navbar = () => {
                             <div className='relative'>
                                 <TiShoppingCart className={`hover:text-red-600 cursor-pointer ${isActive('/cart') || isActive('/checkout') ? 'text-red-500' : 'text-white'}`} size={35}/>
                                 {getTotalItems() > 0 && (
-                                    <p className={`absolute -top-3 -right-2 font-semibold rounded-full p-1 px-2 text-xs ${isActive('/cart') || isActive('/checkout') ? 'bg-white text-red-600' : 'bg-red-600 text-white'}`}>
+                                    <p className={`absolute -top-3 -right-2 font-semibold rounded-full p-1 px-2 text-xs ${isActive('/cart') || isActive('/checkout') ? 'border-red-600 text-red-600' : 'bg-red-600 text-white'}`}>
                                         {getTotalItems()}
                                     </p>
                                 )}
