@@ -131,7 +131,7 @@ const BestSelling = () => {
                   className='sm:w-[260px]   hover:scale-105 duration-300 sm:h-[320px] rounded-xl mx-auto p-4 shadow hover:shadow-md border border-gray-200 flex-shrink-0 cursor-pointer'
                   onClick={() => setSelectedProduct(product)}
                 >
-                  <img className='w-full h-40 object-cover mb-4 rounded-xl border-white' src={product.image} alt={product.name} />
+                  <img className='w-full h-40 object-contain mb-4 rounded-xl border-white' src={product.image} alt={product.name} />
                   <h1 className='text-xl text-center mt-2 font-poppins font-semibold '>{product.name}</h1>
                   <p className=' text-center font-poppins '>${product.price}</p>
                   <button
